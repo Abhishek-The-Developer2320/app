@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+{% block content %}
+<div class="text-center">
+  <h1>Welcome to ProjectsApp</h1>
+  <p class="lead">Manage your projects and tasks easily.</p>
+  <a href="{{ url_for('users.login') }}" class="btn btn-primary">Login</a>
+  <a href="{{ url_for('users.register') }}" class="btn btn-success">Register</a>
+</div>
+{% endblock %}
