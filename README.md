@@ -110,3 +110,5 @@ To reset DB:
 
 flask db downgrade base
 flask db upgrade
+
+<img width="945" height="465" alt="acess" src="https://github.com/user-attachments/assets/88e99750-618a-48bc-8f63-4ce7980dbc44" />
